@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASI CONNECT - Connecting Communities</title>
+    <link rel="stylesheet" href="KASICONNECT2.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title-container">
+            <img src="w-icons/Kasi connex.png" alt="Your Logo" id="logo">
+            <h1>KASI-CONNECT</h1>
+        </div>
+
+                <nav class="cd-main-nav js-main-nav">
+                <ul class="cd-main-nav__list js-signin-modal-trigger">
+                        <!-- inser more links here -->
+                <li><a class="cd-main-nav__item cd-main-nav__item--signup" href="#0" data-signin="signup">Sign up</a></li>
+                <li><a href="Categories.html" class="hero-btn">Explore Now</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="cd-signin-modal js-signin-modal"> <!-- this is the entire modal form, including the background -->
+        <div class="cd-signin-modal__container"> <!-- this is the container wrapper -->
+            <ul class="cd-signin-modal__switcher js-signin-modal-switcher js-signin-modal-trigger">
+                <li><a href="#0" data-signin="login" data-type="login">Sign in</a></li>
+                <li><a href="#0" data-signin="signup" data-type="signup">New account</a></li>
+            </ul>
+            <div class="cd-signin-modal__block js-signin-modal-block" data-type="signup"> <!-- sign up form -->
+				<form class="cd-signin-modal__form">
+					<p class="cd-signin-modal__fieldset">
+						<label class="cd-signin-modal__label cd-signin-modal__label--username cd-signin-modal__label--image-replace" for="signup-username">Username</label>
+						<input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signup-username" type="text" placeholder="Username">
+						<span class="cd-signin-modal__error">Error message here!</span>
+					</p>
+
+					<p class="cd-signin-modal__fieldset">
+						<label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace" for="signup-email">E-mail</label>
+						<input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="cd-signin-modal__error">Error message here!</span>
+					</p>
+
+					<p class="cd-signin-modal__fieldset">
+						<label class="cd-signin-modal__label cd-signin-modal__label--password cd-signin-modal__label--image-replace" for="signup-password">Password</label>
+						<input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signup-password" type="text"  placeholder="Password">
+						<a href="#0" class="cd-signin-modal__hide-password js-hide-password">Hide</a>
+						<span class="cd-signin-modal__error">Error message here!</span>
+					</p>
+
+					<p class="cd-signin-modal__fieldset">
+						<input type="checkbox" id="accept-terms" class="cd-signin-modal__input ">
+						<label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+					</p>
+
+					<p class="cd-signin-modal__fieldset">
+						<input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+			</div> <!-- cd-signin-modal__block -->
+
+			<div class="cd-signin-modal__block js-signin-modal-block" data-type="reset"> <!-- reset password form -->
+				<p class="cd-signin-modal__message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+				<form class="cd-signin-modal__form">
+					<p class="cd-signin-modal__fieldset">
+						<label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace" for="reset-email">E-mail</label>
+						<input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="cd-signin-modal__error">Error message here!</span>
+					</p>
+
+					<p class="cd-signin-modal__fieldset">
+						<input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="cd-signin-modal__bottom-message js-signin-modal-trigger"><a href="#0" data-signin="login">Back to log-in</a></p>
+			</div> <!-- cd-signin-modal__block -->
+			<a href="#0" class="cd-signin-modal__close js-close">Close</a>
+		</div> <!-- cd-signin-modal__container -->
+	</div> <!-- cd-signin-modal -->
+
+    <section class="hero">
+        <div class="container">
+            <h2>Connecting Small Businesses and Service Providers with Communities</h2>
+            <p>At KASI CONNECT, we bridge the gap between local businesses and communities. Explore a wide range of services and products right around you, all designed to make your life easier and support your community.</p>
+
+
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="container">
+            <h1>PERKS KASI CONNECT</h1>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="w-icons/empowering-icon.png" alt="Map">
+                    <h3>Empowering Local Businesses</h3>
+                    <p>Kasi Connect helps local businesses get visibility and attract more customers from the community.</p>
+                </div>
+                <div class="category-item">
+                    <img src="w-icons/ease of Access-icon.png" alt="Access">
+                    <h3>Ease of acccess</h3>
+                    <p>Residents can easily find businesses, service providers, and local products without needing to travel far.</p>
+                </div>
+                <div class="category-item">
+                    <img src="w-icons/Affordable-icon.png" alt="Access">
+                    <h3>Affordable Marketing</h3>
+                    <p> It provides small businesses an affordable way to market themselves without the high costs of traditional advertising methods.</p>
+                </div>
+                <div class="category-item">
+                    <img src="w-icons/convenience-store.png" alt="Access">
+                    <h3>Convenience</h3>
+                    <p>Users can access various services and products in categories such as transportation, beauty, wellness, food, and events, all in one place.</p>
+                </div>
+                <div class="category-item">
+                    <img src="w-icons/job-seeker.png" alt="Access">
+                    <h3>Creating Job Opportunities</h3>
+                    <p>Through increased exposure and demand, local businesses can grow, leading to more job creation within the community.</p>
+                </div>
+                <div class="category-item">
+                    <img src="w-icons/Customized-icon.png" alt="Access">
+                    <h3>Customized Solutions</h3>
+                    <p> Kasi Connect can cater to the specific needs of the community, providing tailored services that resonate with local preferences and trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            <footer>
+                <h3>APEX IT SOLUTIONS 2024 LOGIC TUMELO</h3>
+            </footer>
+    <script src="placeholders.min.js"></script> <!-- polyfill for the HTML5 placeholder attribute -->
+    <script src="LoginModal.js"></script> <!-- Resource JavaScript -->
+
+</body>
+</html>
